@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lợi ích của công nghệ số trong học tập</title>
+    <style>
+      :root {
+        --page-bg: #edf3fb;
+        --panel: #ffffff;
+        --primary: #1c5ecb;
+        --primary-dark: #0e3b8c;
+        --text: #1e2432;
+        --muted: #53607a;
+        --border: #dfe7f4;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: var(--page-bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page {
+        max-width: 1120px;
+        margin: 30px auto;
+        padding: 0 18px 40px;
+      }
+
+      .wrapper {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        box-shadow: 0 16px 38px rgba(20, 34, 66, 0.08);
+        padding: 24px 28px 18px;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2.1rem, 3vw, 3.2rem);
+        line-height: 1.2;
+        text-align: center;
+        color: var(--primary-dark);
+      }
+
+      .lead {
+        max-width: 840px;
+        margin: 0 auto 26px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      .infographic-box {
+        padding: 10px;
+        border-radius: 18px;
+        background: linear-gradient(135deg, #f4f9ff, #edf4ff);
+        border: 1px solid var(--border);
+      }
+
+      .infographic-box img {
+        width: 100%;
+        border-radius: 14px;
+        border: 1px solid var(--border);
+      }
+
+      .video-section {
+        margin-top: 36px;
+      }
+
+      .video-section h2 {
+        margin: 0 0 10px;
+        font-size: clamp(1.5rem, 2vw, 2.1rem);
+        color: var(--primary-dark);
+      }
+
+      .video-description {
+        margin: 0 0 18px;
+        color: var(--muted);
+      }
+
+      .video-frame {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%;
+        border-radius: 18px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        background: #0d1423;
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+      }
+
+      .video-frame iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      .copyright {
+        margin-top: 26px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.96rem;
+      }
+
+      .copyright strong {
+        color: var(--primary-dark);
+      }
+
+      .copyright a {
+        color: var(--primary);
+        text-decoration: none;
+      }
+
+      .copyright a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 640px) {
+        .wrapper {
+          padding: 18px 14px 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="wrapper">
+        <h1>Lợi ích của công nghệ số trong học tập</h1>
+        <p class="lead">
+          Công nghệ số giúp tăng tương tác, mở rộng nguồn học liệu, hỗ trợ học tập linh hoạt và phát
+          triển kỹ năng cần thiết trong thời đại số.
+        </p>
+
+        <figure class="infographic-box">
+          <img src="Lab05.Ex2.1%20(1).png" alt="Infographic lợi ích của công nghệ số trong học tập" />
+        </figure>
+
+        <section class="video-section">
+          <h2>Video tham khảo</h2>
+          <p class="video-description">
+            Video dưới đây minh họa cách công nghệ hỗ trợ quá trình học tập, tương tác và sáng tạo
+            trong môi trường giáo dục hiện đại.
+          </p>
+
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/CUpDUj_kTr0?rel=0"
+              title="Video liên quan đến học tập và công nghệ số"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+
+        <p class="copyright">
+          <strong>Ghi chú bản quyền:</strong> Infographic được sử dụng từ file nguồn
+          <em>Lab05.Ex2.1 (1).png</em>. Video YouTube được nhúng từ liên kết
+          <a href="https://youtu.be/CUpDUj_kTr0" target="_blank" rel="noopener noreferrer">
+            https://youtu.be/CUpDUj_kTr0
+          </a>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
